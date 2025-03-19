@@ -1,4 +1,4 @@
-import { ethers } from "ethers";
+// import { ethers } from "ethers";
 import { http, createConfig, cookieStorage, createStorage } from "wagmi";
 import { bsc } from "wagmi/chains";
 import { metaMask, walletConnect } from "wagmi/connectors";

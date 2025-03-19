@@ -1,0 +1,12 @@
+name = "my-next-app"
+compatibility_date = "2024-03-19"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+dir = ".output" # Adjust based on where your build files go
+
+[vars]
+NODE_ENV = "production"
